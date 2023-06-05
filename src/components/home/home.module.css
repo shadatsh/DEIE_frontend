@@ -1,0 +1,41 @@
+.homeContainer{
+  height: 200vh;
+  width: 100%;
+  background: url('../../assets/images/back.jpeg') ;
+  background-size: cover;
+  background-position: center;
+}
+.slick-slide img {
+width: 50%;
+height:30px;
+}
+
+.slick-dots {
+bottom: 20px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+color: black;
+}
+
+
+
+
+
+.labContainer {
+  margin: 10px 100px;
+  border-radius: 4px;
+  width: 25%;
+  height: 80px;
+  display: inline-block;
+}
+
+.lab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 20px;
+  background-color: RGB(15, 28, 47,0.8);
+}
