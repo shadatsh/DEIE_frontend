@@ -22,7 +22,7 @@ const Home = () => {
 
   return (
     <div className={styles.homeContainer}>
-
+      <MetaData title={'Home'} />
       <Slider {...settings}>
         <div className={styles.imageContainer}>
         <img src={pic1} alt="" style={{ width: '1500px', height: '400px' }} /> 
