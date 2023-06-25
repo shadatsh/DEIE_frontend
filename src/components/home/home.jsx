@@ -8,6 +8,8 @@ import pic3 from '../../assets/images/picture3.jpeg';
 import styles from './home.module.css';
 import labs from '../dummy/labs.js';
 import { Link } from 'react-router-dom';
+import MetaData from '../layouts/MetaData.js'
+
 
 const Home = () => {
   const settings = {
@@ -22,7 +24,7 @@ const Home = () => {
 
   return (
     <div className={styles.homeContainer}>
-      <MetaData title={'Home'} />
+      <MetaData title="Home" />
       <Slider {...settings}>
         <div className={styles.imageContainer}>
         <img src={pic1} alt="" style={{ width: '1500px', height: '400px' }} /> 
