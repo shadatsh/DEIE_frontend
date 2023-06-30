@@ -5,6 +5,8 @@ import styles from "./studentRegister.module.css";
 import axios from "axios";
 import Cookies from "js-cookie";
 import { useNavigate } from "react-router-dom";
+import MetaData from "../layouts/MetaData";
+
 
 
 const StudentRegister = () => {
@@ -54,6 +56,7 @@ const onSubmit = async (values, { setSubmitting, setStatus }) => {
   return (
     <div className={styles.container}>
       <div className={styles.formContainer}>
+        <MetaData title={`Register`} />  
         <h2>Registration Form</h2>
         <Formik
           initialValues={initialValues}

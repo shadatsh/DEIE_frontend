@@ -38,8 +38,7 @@ function App() {
                 <Route path="/student-login" element={<StudentLogin />} />
                 <Route path="/student-register" element={<StudentRegister />} />
                 <Route path="/forgot-password" element={<ForgotPassword />} />
-                <Route path="/reset-password" element={<ResetPassword />} />
-
+                <Route path='/password/reset/:token' element={<ResetPassword/> } />
                 <Route
                   path="/laboratory"
                   element={

@@ -86,56 +86,6 @@ const authSlice = createSlice({
                 error:  action.payload
             }
         },
-        updateProfileRequest(state, action){
-            return {
-                ...state,
-                loading: true,
-                isUpdated: false
-            }
-        },
-        updateProfileSuccess(state, action){
-            return {
-                ...state,
-                loading: false,
-                user: action.payload.user,
-                isUpdated: true
-            }
-        },
-        updateProfileFail(state, action){
-            return {
-                ...state,
-                loading: false,
-                error:  action.payload
-            }
-        },
-        clearUpdateProfile(state, action){
-            return {
-                ...state,
-                isUpdated: false
-            }
-        },
-
-        updatePasswordRequest(state, action){
-            return {
-                ...state,
-                loading: true,
-                isUpdated: false
-            }
-        },
-        updatePasswordSuccess(state, action){
-            return {
-                ...state,
-                loading: false,
-                isUpdated: true
-            }
-        },
-        updatePasswordFail(state, action){
-            return {
-                ...state,
-                loading: false,
-                error:  action.payload
-            }
-        },
         forgotPasswordRequest(state, action){
             return {
                 ...state,
