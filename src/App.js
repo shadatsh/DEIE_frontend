@@ -16,7 +16,7 @@ import StudentRegister from "./components/studentRegister/studentRegister";
 import AuthContextProvider from "./context/authContextProvider";
 import ProtectedRoute from "./route/protectedRoute";
 
-
+// This is the main App file 
 
 function App() {
   return (
